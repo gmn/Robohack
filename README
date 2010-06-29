@@ -1,0 +1,107 @@
+#################################################################
+#                                                               #
+# ROBOHACK v0.07 - Arcade Games like Mom used to play           #
+#         Baked from scratch by Greg Naughton                   #
+#                                                               #
+#################################################################
+
+This is Robohack.  It is called Robohack because it aspires to be a 
+clone of the classic Williams arcade game Robotron done in the style 
+of Nethack.  Well that, and because I hacked it together.  In order 
+to run it you need the ncurses library which is available at:
+
+http://www.gnu.org/software/ncurses/ncurses.html
+
+I wrote this code entirely from scratch (with the exception of a few bits
+that I copied from Thomas Munro's Ascii Invaders:
+
+http://www.ip9.org/munro/invaders/ 
+
+for the purpose of learning how to program.  It is my first real program
+and first game as well.  
+
+Right now Robohack compiles on Linux only.  (OS X 10.4-6 seems to work)
+
+It is coded entirely in Ansi C using GNU gdb and GNU gcc compiler.  
+
+I release this software under the GNU General Public License.  A copy of 
+the license should accompany the software at all times.  You are free
+to copy or alter it as you see fit.  Indeed I would be quite happy if
+you improved upon it.    
+
+------------------------------------------------------------------
+installation instructions -
+------------------------------------------------------------------
+=========
+=_LINUX_=
+=========
+
+to compile this program just type 
+
+$ make
+
+in the robohack-0.07 directory.  Then type
+
+$ ./robohack
+
+to run it.
+
+you can also  
+
+$ make clean 
+
+to remove the object files and executable
+
+Robohack was compiled and tested on a linux system with a 2.4.20 kernel
+using gnu gcc v2.96 although it should work on most other unices
+with gcc as it isn't that complicated or system specific.
+
+--------------------------------------------------------------------
+Commands - 
+--------------------------------------------------------------------
+Spacebar to start,
+                     e           i
+                     |         y | u
+                     |          \|/
+                 s---o---f   j---o---l
+                     |          /|\
+                     |         b | n
+                     d           k
+
+                   MOVE:       FIRE:
+
+you should be able to press q or ESC at any time to exit as well:
+--------------------------------------------------------------------
+this software is provided as is.  It is full of bugs and I full
+well know it.  Believe me I'm workin on it.
+--------------------------------------------------------------------
+_Philosophy_ -  
+
+Now I know that high level languages are all the rage
+these days.  and basically that's because people are lazy and there
+really aren't that many _good_ coders out there.  They figure hey,
+the more it does for them, the better they look.  I'm from the camp,
+(if there is a camp) that says that the more that's under the hood
+that you cant see, the more likely you are to screw something up.  
+Or maybe not you deliberately, but code would be more elegant if all
+sections of it were examined by a _human_ programmer rather than 
+left to chance.  I like C alot.  C is a lower level language and yes
+it can be rather tediious and baroque as Linus calls it.  But C allows
+you to really get in there and wrastle with the machine itself.  Or
+maybe its because I flunked java and haven't figured out C++ yet, I 
+dont know?  
+
+There is a philosophy underlying the developement of Robohack though.
+I did everything from scratch.  Got my hands dirty.  Wrote and thought
+out every algorithm on my own.  Now I might have done some pretty 
+ridiculous things, and it probably took me four times as long to do
+it, but hey, that's the way I'm wired.  The point is that if you have
+to work out these problems yourself it gives you a unique vantage 
+point of understanding the underlying mechanisms of these things, 
+such as games and other code.  Even if yours aren't necessarily the
+right solutions (hopefully they are though).  That and I'm a diehard
+antique buff kind of guy.  I have an overpowering fascination with 
+things that are old, slightly dated, and smell of vinyl or varnish.  
+They just dont make em like they used to, heh.  
+
+- Greg Naughton, March 2003 -
